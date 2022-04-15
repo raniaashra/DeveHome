@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Poppins:ital,wght@0,200;0,300;0,400;1,300&display=swap');
+body{
+display: flex;
+display: grid;
+grid-template-columns: 1fr ;
+grid-template-rows: 0.4fr 0.4fr 0.4fr ;
+grid-template-areas: 
+  "box_logo"
+  "main"
+  "pic"
+  
+;
+font-family: 'Poppins';
+background-color: rgb(35, 39, 48);
+color: rgb(204, 200, 200);
+font-size: 70px;
+height: 100vh;
+}
+.box_logo{
+background: linear-gradient(rgb(119, 255, 114), rgb(49, 146, 158));
+width: min-content;
+font-size:40px;
+font-weight: 600;
+font-family:'Poppins';
+color: aliceblue;
+padding-left: 1%;
+padding-right: 1%;
+
+margin-left: 2%;
+line-height: 1.5em;
+margin-bottom: 10%;
+border-radius: 15px;
+height: min-content;
+}
+.main{
+    display: flex;
+    line-height: 0.8em;
+    margin-top: 0;
+    display: block;
+}
+strong{
+    font-weight: 100;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(204, 200, 200);
+    margin-left: 20%;
+    margin-top: 1.5%;
+    font-size: 80px;
+
+}
+.text-one{
+    margin-top: 2%;
+margin-left: 20%;  
+font-family: 'Poppins';
+}
+.text-two{
+    font-size: 40%;
+    color: gray;
+    margin-left: 20%;
+    line-height: 1em;
+    width: 50%;
+    margin-top: 0.5%;
+   margin-top:0.5% ;
+}
+.pic{
+    height: auto;
+    display: block;
+    margin-left: 10%;
+    
+}
+.box_btn{
+    background:linear-gradient(rgb(119, 255, 114), rgb(49, 146, 158));
+    width: 700px;
+    height: 70px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    display: block;
+    margin-left: 5%;
+    margin-top: 0;
+    font-weight: 600;
+    position: absolute;
+}
+.pic1{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    bottom: 5%;
+    left: 80%;
+}
